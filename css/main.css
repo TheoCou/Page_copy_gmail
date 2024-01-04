@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+
+body {
+  margin: 0;
+  padding: 0;
+  font-size: 1.6rem;
+  font-family: 'Open-Sans', sans-serif;
+  scroll-behavior: smooth;
+
+}
+
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: #fafafa;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.212);
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header img {
+  width: 10%;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+
+nav li {
+  margin-right: 1.25rem;
+  font-weight: bold;
+  font-size: 0.875rem;
+  cursor: pointer;
+}
+
+nav ul:hover {
+  color: white;
+  background-color: red;
+  transition: background-color 0.5s ease;
+}
+
+section {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+}
+
+.home {
+  background: url(../asset/home-hero.jpg)center / cover;
+  color: #fafafa;
+}
