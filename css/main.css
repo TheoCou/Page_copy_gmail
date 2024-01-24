@@ -72,9 +72,9 @@ section h2 {
   color: white;
   font-family: 'Open Sans', sans-serif;
   margin-left: 4rem;
-  padding: 9% 55% 0 4%;
+  padding: 9% 55% 0 5%;
   font-weight: 300;
-  font-size: 3rem;
+  font-size: 2.6rem;
 }
 
 section.home {
@@ -87,24 +87,24 @@ body main a {
   background-color: #dd5347;
   color: #ffffff;
   font-family: 'Open Sans', sans-serif;
-  margin-left: 8.4%;
-  padding: 2.5rem;
+  margin-left: 9%;
+  padding: 1.7rem;
 }
 
 .form{
-  font-size: smaller;
+  font-size: 1.2rem;
 }
 
 h3 {
   font-family: 'Open Sans', sans-serif;
-  padding-top: 8%;
+  padding-top: 7%;
   text-align: center;
 }
 
 h4 {
   font-family: 'Open Sans', sans-serif;
   text-align: center;
-  margin: 0 15% 0 15%;
+  margin: 0 25% 0 25%;
 }
 
 fieldset {
