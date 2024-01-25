@@ -1,47 +1,4 @@
-<!DOCTYPE html>
-<html lang="fr">
-
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="icon" type="image/png" href="./asset/gmailicon.png">
-  <link rel="stylesheet" href="./css/main.css">
-  <title>Gmail</title>
-</head>
-
-<body>
-
-  <header>
-    <img src="./asset/imagegmail.png" alt="Logo">
-  
-    <nav>
-      <ul>
-        <li>POUR LES PROS</li>
-        <li><a href="#connection">CONNEXION</a></li>
-        <li><a href="#connection">CRÉER UN COMPTE</a></li>
-      </ul>
-    </nav>
-  </header>
-
-  <div class="scroll_btn">
-
-    <a href="#connection"><img src="./asset/arrow.png" alt="scroll button"></a>
-
-  </div>
-
-  <main>
-
-    <section class="home">
-
-      <h2>Retrouvez la fluidité et la simplicité de Gmail sur tous vos appareils</h2>
-
-      <a href="#connection">CRÉER UN COMPTE</a>
-
-    </section>
-
-
-
-    <section class="form">
+<section class="form">
 
       <h3>Une boîte de réception entièrement repensée</h3>
 
@@ -70,8 +27,4 @@
         </form>
       </fieldset>
 
-    </section>
-  </main>
-</body>
-
-</html>
+</section>
