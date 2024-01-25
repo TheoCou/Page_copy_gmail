@@ -88,10 +88,10 @@ body main a {
   color: #ffffff;
   font-family: 'Open Sans', sans-serif;
   margin-left: 9%;
-  padding: 1.7rem;
+  padding: 1.4rem;
 }
 
-.form{
+.form {
   font-size: 1.2rem;
 }
 
@@ -104,7 +104,7 @@ h3 {
 h4 {
   font-family: 'Open Sans', sans-serif;
   text-align: center;
-  margin: 0 25% 0 25%;
+  margin: 0 30% 0 30%;
 }
 
 fieldset {
@@ -119,6 +119,7 @@ fieldset {
 
 form label {
   display: block;
+  font-family: 'Open Sans', sans-serif;
 }
 
 form input[type="text"],
@@ -145,7 +146,6 @@ form input[type="submit"] {
 form input[type="submit"]:hover {
   background-color: #1a73e8;
 }
-
 
 .scroll_btn {
   background-color: #dd5347;
