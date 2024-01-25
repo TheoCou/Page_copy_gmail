@@ -72,7 +72,7 @@ section h2 {
   color: white;
   font-family: 'Open Sans', sans-serif;
   margin-left: 4rem;
-  padding: 9% 70% 0 5%;
+  padding: 9% 55% 0 5%;
   font-weight: 300;
   font-size: 2.6rem;
 }
@@ -82,9 +82,9 @@ section.home {
   flex-direction: column;
   align-items: flex-start;
 }
-
+/*#dd5347*/
 body main a {
-  background-color: #dd5347;
+  background-color: #33b556;
   color: #ffffff;
   font-family: 'Open Sans', sans-serif;
   margin-left: 9%;
