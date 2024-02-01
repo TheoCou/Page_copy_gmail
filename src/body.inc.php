@@ -1,23 +1,9 @@
 <body>
-
     <?php
     include_once "./src/header.inc.php";
-    ?>
-
-    <?php
-    include_once "./src/scrollbtn.inc.php"
-    ?>
-
-    <main>
-
-        <?php
-        include_once "./src/home.inc.php"
-        ?>
-
-
-        <?php
-        include_once "./src/form.inc.php"
-        ?>
     
-    </main>
+    include_once "./src/scrollbtn.inc.php";
+
+    include_once "./src/main.inc.php";
+    ?>
 </body>
