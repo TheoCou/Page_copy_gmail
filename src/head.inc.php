@@ -17,5 +17,5 @@ $_new_user = new User;
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="icon" type="image/png" href="./asset/gmailicon.png">
   <link rel="stylesheet" href="<?= $_new_user->_css ?>">
-  <title>Gmail</title>
+  <title><?= $_new_user->_title ?></title>
 </head>
