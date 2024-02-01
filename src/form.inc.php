@@ -15,15 +15,18 @@
           <label for="surname">Prénom*</label> <br>
           <input type="text" id="surname" name="surname" placeholder="Votre prénom" aria-required="true"> <br>
 
-          <label for="email">Mail*</label> <br>
-          <input type="text" id="email" name="login" placeholder="Votre mail" aria-required="true"> <br>
+          <label for="mail">Mail*</label> <br>
+          <input type="text" id="mail" name="mail" placeholder="Votre mail" aria-required="true"> <br>
 
           <label for="password">Choisir votre mot de passe*</label> <br>
           <input type="password" id="password" name="password" placeholder="Votre mot de passe" aria-required="true">
           <br>
 
           <input type="submit" id="submit" value="Valider votre compte" aria-label="Valider">
-
+          <?php
+          require_once __DIR__ . "./src/controller.base.php";
+          ControllerBase::event();
+          ?>
         </form>
       </fieldset>
 
