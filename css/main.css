@@ -5,7 +5,7 @@
   scroll-behavior: smooth;
 }
 
-html{
+html {
   font-size: 62.5%;
 }
 
@@ -52,8 +52,8 @@ nav ul {
 
 nav li {
   font-weight: 300;
-  font-size: 1rem;
-  padding: 2.4rem 1.5rem 2.4rem 1.5rem;
+  font-size: 1.5rem;
+  padding: 3rem 2rem 3rem 2rem;
 }
 
 nav li:hover {
@@ -76,9 +76,9 @@ section h2 {
   color: white;
   font-family: 'Open Sans', sans-serif;
   margin-left: 4rem;
-  padding: 9% 55% 0 5%;
+  padding: 9% 60% 0 5%;
   font-weight: 300;
-  font-size: 2.6rem;
+  font-size: 4.4rem;
 }
 
 section.home {
@@ -91,8 +91,8 @@ body main a {
   background-color: #dd5347;
   color: #ffffff;
   font-family: 'Open Sans', sans-serif;
-  margin-left: 9%;
-  padding: 1.4rem;
+  margin-left: 8%;
+  padding: 2.4rem;
 }
 
 .form {
