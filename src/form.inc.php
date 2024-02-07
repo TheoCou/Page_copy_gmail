@@ -23,10 +23,12 @@
           <br>
 
           <input type="submit" id="submit" value="Valider votre compte" aria-label="Valider">
+
           <?php
-          require_once __DIR__ . "./src/controller.base.php";
+          require_once __DIR__ ."/controller.base.php";
           ControllerBase::event();
           ?>
+
         </form>
       </fieldset>
 
