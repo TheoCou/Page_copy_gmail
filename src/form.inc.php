@@ -22,6 +22,8 @@
           <input type="password" id="password" name="password" placeholder="Votre mot de passe" aria-required="true">
           <br>
 
+          <input type="hidden" name="csrf_token" value="<?= $token; ?>">
+          
           <input type="submit" id="submit" value="Valider votre compte" aria-label="Valider">
 
           <?php
