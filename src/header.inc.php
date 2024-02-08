@@ -1,5 +1,5 @@
 <header>
-    <img src="./asset/imagegmail.png" alt="Logo">
+    <img src="./asset/imagegmail.png" alt="Gmail">
   
     <nav>
       <ul>
