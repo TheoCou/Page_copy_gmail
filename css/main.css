@@ -139,7 +139,8 @@ form input[type="password"] {
   border: 0.063rem solid #ddd;
   border-radius: 0.25rem;
   box-sizing: border-box;
-  font-size: 1.5rem;
+  font-size: inherit;
+  line-height: 3rem;
 }
 
 form input[type="submit"] {
@@ -150,6 +151,8 @@ form input[type="submit"] {
   border: none;
   border-radius: 0.25rem;
   cursor: pointer;
+  font-size: inherit;
+  width: max-content;
 }
 
 .scroll_btn {
