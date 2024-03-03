@@ -10,28 +10,21 @@ try { // On se connecte à MySQL
     while ($data = $reponse->fetch()) {
         $data['login'];
         $data['password'];
-        //print_r($data);
 
         //on teste les champs de notre formulaire
         if (isset($_POST['login']) && isset($_POST['password'])) {
             $login = $_POST['login'];
             $mdp = $_POST['password'];
-            print $login;
 
             if (!$login || !$mdp) {
                 echo "<p class=\"warning\">Vous avez oubliez votre mail ou password?</p>";
             }
             //on compare les login et mot de passe de la bdd
             elseif ($login != $data['login'] && $mdp != $data['password']) {
-                echo "<p class=\"warning\">Erreur login ou mot de passe?</p>";
-            } else {
-                //on valide la connexion
-                //print "<a href=\"connection.php\">Go!!!</a>";
-                $_SESSION['nom'] = $login;
-                echo "<p class=\"success\">Votre login est " . $_SESSION['nom'] . "
-                            votre mot de passe est  " . md5($mdp);
-                header("Location: connection.php");
-                exit;
+                echo "<p class=\"success\">Merci, votre compte a bien été crée :
+                <a href=\"space.php\" title=\"pub\">Connectez vous</a>
+                
+        </p>";
             }
         }
     }
